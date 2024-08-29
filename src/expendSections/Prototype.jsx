@@ -25,8 +25,8 @@ const Prototype = () => {
             title="Expend Prototype"
             style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
             width="1080"
-            height="900"
-            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxSVjXZlHs8Z8Myn0PEAMag%2FExpend-App%3Fpage-id%3D1%253A4%26node-id%3D248-6414%26node-type%3DCANVAS%26viewport%3D1148%252C656%252C0.14%26t%3DEqw8c9scqKmFrCPN-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D1451%253A10282"
+            height="1000"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FB9iVIvC7LCdWFqEuHtQawo%2FExpend-New%3Fpage-id%3D0%253A1%26node-id%3D1-1988%26node-type%3DCANVAS%26viewport%3D1002%252C731%252C0.07%26t%3DZEPoxHUtnVMYxT90-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26starting-point-node-id%3D1%253A1964"
             allowFullScreen
           ></iframe>
         </div>
