@@ -1,20 +1,33 @@
-import Button from "../components/Button";
-import arrowDown from "../assets/icons/arrowdown.svg";
-import Secondary from "../components/Secondary";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-center items-center gap-5 w-full max-w-4xl p-8 max-container mt-40 mb-20 max-lg:my-10">
-      <h1 className="text-primary-light mb-5 text-5xl max-lg:text-3xl text-center font-thin leading-tight">
-        Hello! I'm{" "}
-        <span className="text-secondary-dark font-medium font-katibeh text-7xl max-xl:text-5xl">
-          George
-        </span>
-        , a product designer with a Front End Developement knowledge.
-      </h1>
-      <div className="flex gap-2">
-        <Button label="Resume" iconURL={arrowDown} />
-        <Secondary label="Contact" />
+    <section className="flex flex-col mt-40 max-sm:my-24 mb-48 text-primary-light font-roboto font-light max-container">
+      <motion.div
+        initial={{ y: "-100%" }}
+        animate={{ y: "0%" }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="mb-10"
+      >
+        <h1 className="text-9xl max-sm:text-6xl font-medium leading-tight">
+          Hey, <br />
+          I'm George
+        </h1>
+      </motion.div>
+      <div className="flex justify-end text-2xl max-sm:text-xl">
+        <motion.div
+          initial={{ y: "100%" }}
+          animate={{ y: "0%" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="max-w-2xl"
+        >
+          <p>
+            — a UI/UX designer based in{" "}
+            <span className="font-normal text-secondary-dark">Greece</span> who
+            loves turning ideas into intuitive digital experiences. While design
+            is my forte, I occasionally code to bring my visions to life.
+          </p>
+        </motion.div>
       </div>
     </section>
   );
